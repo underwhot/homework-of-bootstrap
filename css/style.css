@@ -1,0 +1,42 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+}
+
+section.custom-pudding {
+  padding: 64px 0;
+}
+
+footer {
+  padding: 16px 0;
+}
+
+.bg-gray {
+  background-color: #e9ecef;
+}
+
+.header-title {
+  margin-left: -5px;
+  font-size: 72px;
+}
+
+.fz20 {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+table a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 576px) {
+  .display-3 {
+    font-size: 3em;
+  }
+}
